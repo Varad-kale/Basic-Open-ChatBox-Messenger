@@ -1,0 +1,35 @@
+body{
+    margin-left: 20px;
+    background-color: rgb(250, 250, 183);
+    
+}
+
+.Allchats{
+    color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.chat{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: inline-flex;
+    align-items: center;
+}
+/* 
+.area{
+    display: inline-flex;
+} */
+
+.msg{
+    background-color: rgb(35, 157, 96);
+    padding: 5px ;
+    color:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+}
